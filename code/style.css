@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+}
+div {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    gap: 20px;
+    grid-template-columns: 0fr 0fr;
+    grid-auto-rows: 50px;
+}
+.container > div {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+div.box {
+    background-color:  lightblue;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+}
+
+div.box:hover {
+    background-color: black;
+    cursor: pointer;
+}
